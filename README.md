@@ -1,3 +1,6 @@
+# Dockerfile based on alpine-node image + libsass + yarn + pm2
+(and dependencies: gcc, g++, make, node-gyp, python, git)
+
 ```dockerfile
 FROM mhart/alpine-node:6.7.0
 
