@@ -2,7 +2,7 @@
 (and dependencies: gcc, g++, make, node-gyp, python, git)
 
 ```dockerfile
-FROM mhart/alpine-node:6.7.0
+FROM mhart/alpine-node:9.0.0
 
 # Install required dependencies (Alpine Linux packages)
 RUN \
